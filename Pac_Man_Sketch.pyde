@@ -7,7 +7,7 @@ def setup():
     With = 100                                    #
     Hight = 100                                   #
     arc(XCoord, YCoord, With, Hight, .60000000000000000000, PI+QUARTER_PI)
-    arc(XCoord, YCoord, With, Hight, QUARTER_PI, PI)
+    arc(XCoord, YCoord, With, Hight, QUARTER_PI, TWO_PI)
     fill(255)                                     # Set fill to white
     YCoord = 160                                  #
     Hight = 35                                    #
